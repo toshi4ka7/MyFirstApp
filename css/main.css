@@ -214,7 +214,7 @@ input[type=range]::-ms-fill-upper {
   left: 22px; }
 
 body {
-  max-width: 320px;
+  max-width: 900px;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box; }
 
@@ -262,7 +262,7 @@ body {
     box-sizing: border-box;
     float: left;
     padding: 13px 0 10px 0;
-    width: 100px;
+    width: 33.33333333%;
     display: block;
     text-align: center;
     border-right: 1px solid #ccc;
@@ -300,21 +300,21 @@ body {
     box-sizing: border-box;
     float: left;
     padding: 5px 0;
-    width: 100px;
+    width: 33.33333333%;
     text-align: center;
     border-right: 1px solid #ccc; }
     .display li:last-child {
       border-right: none; }
     .display li span.shop {
       padding-left: 21px;
-      margin-left: 26px;
+      margin: 0 auto;
       width: 19px;
       height: 18px;
       display: block;
       background: url(../img/shopping-cart.svg) no-repeat; }
     .display li span.money {
       padding-left: 23px;
-      margin-left: 18px;
+      margin : 0 auto;
       width: 18px;
       height: 18px;
       display: block;
